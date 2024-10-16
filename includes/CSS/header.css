@@ -1,0 +1,115 @@
+/* CSS/header.css */
+
+/* Estilo básico para el cuerpo y el contenedor */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía básica */
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Fondo claro */
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; /* Fondo blanco para el contenedor */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+/* Estilo del encabezado */
+.header-container {
+    background: #0056b3; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-container nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header-container nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header-container nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header-container nav ul li a:hover {
+    color: #f9ae48; /* Color de acento al pasar el mouse */
+}
+
+/* Estilo de las noticias */
+.noticias {
+    display: flex;
+    flex-direction: column; /* Cambiar a columna para mejor disposición */
+}
+
+.noticia {
+    background: #ffffff; /* Fondo blanco para las noticias */
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición suave */
+}
+
+.noticia:hover {
+    transform: translateY(-2px); /* Elevación suave al pasar el mouse */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+.noticia img {
+    width: 100%;
+    height: auto; /* Mantiene la proporción */
+    border-radius: 5px; /* Esquinas redondeadas en la imagen */
+}
+
+.noticia h2 {
+    font-size: 1.8em;
+    margin: 10px 0;
+    color: #0056b3; /* Color del texto del título */
+}
+
+.noticia p {
+    margin: 10px 0;
+    color: #333; /* Color gris oscuro para el texto de la descripción */
+    line-height: 1.5; /* Mejor espaciado entre líneas */
+}
+
+/* Estilo del pie de página */
+.footer-container {
+    background: #0056b3; /* Color de fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 0 0 8px 8px;
+}
+
+.footer-container p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Estilo de los enlaces en el pie de página */
+.footer-container a {
+    color: #f9ae48; /* Color de los enlaces en el pie de página */
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}

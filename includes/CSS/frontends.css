@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-bottom: 2px solid #000;
+}
+
+.logo {
+    width: 100px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.user-options {
+    text-align: right;
+}
+
+.user-options a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #e9e9e9;
+    padding: 20px;
+    border-right: 2px solid #000;
+}
+
+.sidebar p {
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.recent-news {
+    width: 50%;
+    padding: 20px;
+}
+
+.recent-news h2 {
+    margin-bottom: 20px;
+}
+
+.news-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.news-item h3 {
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    margin-bottom: 10px;
+}
+
+.extra-section {
+    width: 30%;
+    padding: 20px;
+}
+
+.extra-section h2 {
+    margin-bottom: 20px;
+}
+
+.extra-info {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+}

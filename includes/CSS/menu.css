@@ -1,0 +1,36 @@
+/* Estilos del menú */
+.menu {
+    background-color: #4CAF50; /* Fondo verde oscuro para el menú */
+    padding: 15px;
+    width: 200px;
+    height: 100vh; /* Altura completa de la ventana */
+    color: white; /* Texto en blanco */
+}
+
+.menu ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+.menu ul li {
+    margin: 20px 0; /* Espaciado entre elementos */
+}
+
+.menu ul li a {
+    color: white; /* Enlaces en blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 18px; /* Tamaño de fuente */
+    display: block; /* Hace que el enlace ocupe todo el espacio del li */
+    padding: 10px; /* Espaciado interno */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+.menu ul li a:hover {
+    background-color: #81c784; /* Fondo más claro al pasar el mouse */
+    text-decoration: underline; /* Subrayar el texto al pasar el mouse */
+}
+
+/* Resaltar el elemento activo */
+.menu ul li.active a {
+    background-color: #66bb6a; /* Color de fondo para el elemento activo */
+}

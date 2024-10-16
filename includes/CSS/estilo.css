@@ -1,0 +1,110 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f9f1;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezado */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Enlaces */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para los botones de acciones */
+a.editar {
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+a.eliminar {
+    color: #f44336;
+}
+
+/* Contenedor de las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #4CAF50;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Botón de agregar nueva categoría o noticia */
+a.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+a.button:hover {
+    background-color: #45a049;
+}
+
+/* Enlaces para Editar y Eliminar */
+a.editar, a.eliminar {
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+a.editar {
+    background-color: #4CAF50;
+}
+
+a.eliminar {
+    background-color: #f44336;
+}
+
+/* Enlace para volver a la página principal */
+a.volver {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+a.volver:hover {
+    background-color: #333;
+}
